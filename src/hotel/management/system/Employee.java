@@ -60,7 +60,7 @@ public class Employee extends JFrame implements ActionListener{
         rbFemale.setBounds(280 ,130 ,70 ,30);
         add(rbFemale);
         
-        //inorder to make sure taht either of male or female get selected
+        //inorder to make sure that either of male or female get selected
         ButtonGroup bg = new ButtonGroup();
         bg.add(rbMale);
         bg.add(rbFemale);

@@ -9,14 +9,18 @@ import java.awt.*;//color
 import java.awt.event.*;
 import java.sql.*;
 
-public class Login extends JFrame implements ActionListener {
+public class human_login extends JFrame implements ActionListener {
     JTextField username ;
     JPasswordField password;
     JButton login ,cancel;
-    Login(){
+    human_login(){
         getContentPane().setBackground(Color.WHITE);
         setLayout(null);//closes all default settings and let create own custom layout
-        
+        JLabel text = new JLabel("Human Login");
+             text.setBounds(20,430,100,90);
+             text.setForeground(Color.BLACK);
+             text.setFont(new Font("serif" , Font.PLAIN ,60));
+            add(text);
         JLabel user = new JLabel("User Name");
         user.setBounds(40,20,100,30);
         add(user);
@@ -43,7 +47,7 @@ public class Login extends JFrame implements ActionListener {
         cancel.addActionListener(this);
         add(cancel);
         
-        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icons/dennis.jpg"));
+        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icons/human.jpg"));
         Image i2 = i1.getImage().getScaledInstance(200, 200, Image.SCALE_DEFAULT);
         ImageIcon i3 = new ImageIcon(i2);
         JLabel image = new JLabel(i3);
@@ -62,12 +66,12 @@ public class Login extends JFrame implements ActionListener {
              
             try{
                 Conn c = new Conn();
-                String query ="select * from login where username = '"+user+"' and password = '"+ pass+"'" ;
+                String query ="select * from human where username = '"+user+"' and pass = '"+ pass+"'" ;
                 ResultSet rs = c.s.executeQuery(query);
                 if(rs.next())
                 {
                     setVisible(false);
-                    new Dashboard();
+                    new human_dashboard();
                 }
                 else{
                     JOptionPane.showMessageDialog(null, "invalid username or password");
@@ -87,6 +91,7 @@ public class Login extends JFrame implements ActionListener {
     }
     public static void main (String[] args)
     {
-        new Login();
+        new human_login();
     }
 }
+

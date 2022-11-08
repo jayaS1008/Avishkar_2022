@@ -33,9 +33,9 @@ public class Reception extends JFrame {
 		btnNewCustomerForm.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				try{
-//				NewCustomer custom = new NewCustomer();
-//				custom.setVisible(true);
-//                                setVisible(false);
+				AddCustomer custom = new AddCustomer();
+				custom.setVisible(true);
+                                setVisible(false);
 			}catch(Exception e1){
 				e1.printStackTrace();
 			}
@@ -171,9 +171,9 @@ public class Reception extends JFrame {
 		btnNewButton_5.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				try{
-//				UpdateCheck update = new UpdateCheck();
-//				update.setVisible(true);
-//                                setVisible(false);
+				UpdateCheck update = new UpdateCheck();
+				update.setVisible(true);
+                                setVisible(false);
 				}
 				catch(Exception e1){
 					e1.printStackTrace();
