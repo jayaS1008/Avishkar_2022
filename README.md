@@ -1,4 +1,5 @@
 ## Innodev_2022
+# Desktop Application using java 
 ## Team
 Name
 - Code Diva
@@ -16,8 +17,8 @@ TechStack
 - Staff Login.
 - Dashboard and Reception for staff
 - Dasboard for customer
-- Customer can book rooms, search for rooms, book cabs .
-- Staff can search for rooms , add employees ,access employee information , search room , add rooms , customer information and update these informations .
+- Customer can book rooms, search for rooms and book cabs .
+- Staff can search for rooms, add employees, access employee information, search for rooms, add rooms, add customer information and update these informations .
 
 ## Still working on 
  - notification systems
