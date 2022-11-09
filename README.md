@@ -1,6 +1,6 @@
 ## Innodev_2022
 
-# hotel Management System
+# Hotel Management System based on Hotel Transylvannia Theme.
 
 # Team
 Name
