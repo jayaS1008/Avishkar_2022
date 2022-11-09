@@ -1,6 +1,8 @@
 ## Innodev_2022
-# Desktop Application using java 
-## Team
+
+# hotel Management System
+
+# Team
 Name
 - Code Diva
 
