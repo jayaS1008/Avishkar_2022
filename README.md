@@ -2,7 +2,7 @@
 ## Team
 Name
 - Code Diva
- Member
+Member
 - Jaya Singh
 
 TechStack
