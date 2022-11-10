@@ -11,7 +11,7 @@ Member
 
 TechStack
 - Java and MySQL
- Editor
+Editor
  - NeatBeans
  
 ## Features
