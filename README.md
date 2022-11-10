@@ -21,7 +21,7 @@ Editor
 - Staff Login.
 - Dashboard and Reception for staff
 - Dasboard for customer
-- Customer can book rooms, search for rooms and book cabs .
+- Customers can book rooms, update their profile, check in early and have access to utilities like notepad and calculator .
 - Staff can search for rooms, add employees, access employee information, search for rooms, add rooms, add customer information and update these informations .
 
 ## Still working on 
